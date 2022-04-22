@@ -1,10 +1,10 @@
 # Docker-cheatsheet
 
-## DWS-OPS-005-Docker
+### DWS-OPS-005-Docker
 
-### 1) Get mysql:8 image and specify ports, volumes and docker version by which the image is built.
+#### 1) Get mysql:8 image and specify ports, volumes and docker version by which the image is built.
 
-Get mysql:8 image
+> Get mysql:8 image
 
 - docker pull mysql:8
 
@@ -13,7 +13,7 @@ Show docker version, ports and volumes
 - docker image inspect mysql:8
 
 ### 2) Get nginx:latest image and save it to a local file. then load it using load and import commands.
-
+'''
 Get nginx:latest image and save it to a local file
 
 - docker pull nginx:latest
@@ -23,7 +23,7 @@ load and import file:
 
 - docker load -i nginx.tar    
 - docker import nginx.tar nginx:mynginx
-
+'''
 
 ### 3) Run a nginx container and bind Exposed Port (80) to port 8081 of the host.
 
