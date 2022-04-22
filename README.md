@@ -174,7 +174,8 @@ The FROM in dockerfile means the file system of that operating system(rootfs), n
 #### 9) What is the purpose of VOLUME in Dockerfile
 
 ```
-You can declare it in a Dockerfile, which means each time a container is started from the image, the volume is created, even if you don't have any -v option
+You can declare it in a Dockerfile, which means each time a container is started from the image,
+the volume is created, even if you don't have any -v option
 ```
 
 
