@@ -121,5 +121,6 @@ docker run -it --name myalpine -v /home/mydata:/data -w /data alpine:latest
 - Practice Name: Ops-005-Docker,
                  Ops-006-Docker
 - [@dwsclass](https://github.com/dwsclass) dws-ops-005-Docker
+- [@dwsclass](https://github.com/dwsclass) dws-ops-006-Docker
 
 Copyright 2022 Nima Tabatabaee <nima.tabatabaee@gmail.com>
