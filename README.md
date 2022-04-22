@@ -4,13 +4,13 @@
 
 #### 1) Get mysql:8 image and specify ports, volumes and docker version by which the image is built.
 
-`Get mysql:8 image
+```Get mysql:8 image
 
 - docker pull mysql:8
 
 Show docker version, ports and volumes
 
-- docker image inspect mysql:8`
+- docker image inspect mysql:8```
 
 ### 2) Get nginx:latest image and save it to a local file. then load it using load and import commands.
 `
