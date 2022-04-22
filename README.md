@@ -43,3 +43,12 @@ The docker-proxy operates in userland, and simply receives any packets arriving 
 Dangling images are layers that have no relationship to any tagged images.
 
 - docker image prune
+
+
+#### Docker Practice
+- Name: Nima Tabatabaee
+- Grops: Bladrina
+- Practice Name: Ops-005-Docker
+- [@dwsclass](https://github.com/dwsclass) dws-ops-005-Docker
+
+Copyright 2022 Nima Tabatabaee <nima.tabatabaee@gmail.com>
