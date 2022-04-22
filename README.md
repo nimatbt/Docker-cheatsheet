@@ -121,7 +121,8 @@ docker run -it --name myalpine -v /home/mydata:/data -w /data alpine:latest
 #### 1) What is Dockerfile?
 
 ```
-A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image. Using docker build users can create an automated build that executes several command-line instructions in succession
+A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image.
+Using docker build users can create an automated build that executes several command-line instructions in succession
 ```
 
 #### 2) Difference between docker commit and docker build command
@@ -134,7 +135,8 @@ A Dockerfile is a text document that contains all the commands a user could call
 #### 3) Difference between ENV and ARG
 
 ```
-- ENV is for future running containers. ARG for building your Docker image. ENV is mainly meant to provide default values for your future environment variables.
+- ENV is for future running containers. ARG for building your Docker image.
+ENV is mainly meant to provide default values for your future environment variables.
 - ARG values are not available after the image is built. A running container won’t have access to an ARG variable value
 ```
 
@@ -142,13 +144,16 @@ A Dockerfile is a text document that contains all the commands a user could call
 
 ```
 - CMD sets default command and/or parameters, which can be overwritten from command line when docker container runs
-- ENTRYPOINT command and parameters will not be overwritten from command line unless you add the --entrypoint flag. Instead, all command line arguments will be added after ENTRYPOINT parameters
+- ENTRYPOINT command and parameters will not be overwritten from command line unless you add the --entrypoint flag.
+Instead, all command line arguments will be added after ENTRYPOINT parameters
 ```
 
 #### 5) Difference between Expose and Publish ports
 
 ```
-Exposing ports is a way of documenting which ports are used, but does not actually map or open any ports. Exposing ports is optional. You publish ports using the --publish or --publish-all flag to docker run . This tells Docker which ports to open on the container's network interface
+Exposing ports is a way of documenting which ports are used, but does not actually map or open any ports.
+Exposing ports is optional. You publish ports using the --publish or --publish-all flag to docker run .
+This tells Docker which ports to open on the container's network interface
 ```
 
 #### 6) What does it mean when we use the FROM in Dockerfile?
@@ -167,8 +172,9 @@ The FROM in dockerfile means the file system of that operating system(rootfs), n
 #### 8) Difference between ADD and COPY
 
 ```
-- COPY takes in a src and destination. It only lets you copy in a local file or directory from your host (the machine building the Docker image) into the Docker image itself.
-- ADD lets you do that too, but it also supports 2 other sources. First, you can use a URL instead of a local file / directory. Secondly, you can extract a tar file from the source directly into the destination
+- COPY takes in a src and destination. It only lets you copy in a local file or directory from your host into the Docker image itself.
+- ADD lets you do that too, but it also supports 2 other sources. First, you can use a URL instead of a local file / directory.
+Secondly, you can extract a tar file from the source directly into the destination
 ```
 
 #### 9) What is the purpose of VOLUME in Dockerfile
